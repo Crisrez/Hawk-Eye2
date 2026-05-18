@@ -17,4 +17,5 @@ public class GameManager : MonoBehaviour
             fanaticSpawner.SetFanatic();
         }
     }
+
 }
