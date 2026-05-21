@@ -7,6 +7,8 @@ TagManager:
   - Security
   - Fanatic
   - Ball
+  - Footballer
+  - Fight
   layers:
   - Default
   - TransparentFX
@@ -15,10 +17,10 @@ TagManager:
   - Water
   - UI
   - BOX
-  - 
-  - 
-  - 
-  - 
+  - General
+  - Monitor
+  - Triggers
+  - Colliders
   - 
   - 
   - 

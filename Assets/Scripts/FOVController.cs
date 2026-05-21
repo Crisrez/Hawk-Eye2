@@ -21,7 +21,7 @@ public class FOVController : MonoBehaviour
         valorScroll += Mouse.current.scroll.ReadValue().y * -scrollSensitivity;
         valorScroll = Mathf.Clamp(valorScroll, minFOV, maxFOV);
 
-        Debug.Log(valorScroll);
+        //Debug.Log(valorScroll);
 
         CambiarFOV(valorScroll);
 
@@ -32,5 +32,10 @@ public class FOVController : MonoBehaviour
         LensSettings lensSettings = monitorCamera.Lens;
         lensSettings.FieldOfView = newFOV;
         monitorCamera.Lens = lensSettings;
+    }
+
+    public float GetValorScrollNormalized()
+    {
+        return Mathf.InverseLerp(minFOV, maxFOV, valorScroll);
     }
 }

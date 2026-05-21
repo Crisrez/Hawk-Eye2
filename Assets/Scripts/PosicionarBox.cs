@@ -7,11 +7,14 @@ public class PosicionarBox : MonoBehaviour
     [SerializeField] private Camera mainCamera;
     [SerializeField] private LayerMask layerMask;
 
+    [SerializeField] private FOVController fOVController;
+    [SerializeField] private float minScale, maxScale;
+
     void Update()
     {
         Ray ray = mainCamera.ScreenPointToRay(Mouse.current.position.ReadValue());
 
-
+        box.transform.localScale = Vector3.Lerp(new Vector3(minScale, minScale, minScale), new Vector3(maxScale, maxScale, maxScale), fOVController.GetValorScrollNormalized());
 
         if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, layerMask, QueryTriggerInteraction.Ignore))
         {

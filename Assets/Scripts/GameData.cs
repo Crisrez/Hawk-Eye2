@@ -72,7 +72,7 @@ public static class GameData
 
     public static void SetScoreFulbo(float score)
     {
-        scoreFulbo = score;
+        scoreFulbo = Mathf.Clamp(scoreFulbo + score, 0, 100);
     }
 
     public static float GetScoreFulbo()
@@ -82,7 +82,7 @@ public static class GameData
 
     public static void SetScoreSoccer(float score)
     {
-        scoreSoccer = score;
+        scoreSoccer = Mathf.Clamp(scoreSoccer + score, 0, 100);
     }
 
     public static float GetScoreSoccer()
