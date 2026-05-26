@@ -3,40 +3,72 @@ using System.Collections.Generic;
 
 public static class GameData
 {
-    [SerializeField] private static int scoreTeamA = 0;
-    [SerializeField] private static int scoreTeamB = 0;
-    [SerializeField] private static List<GameObject> teamA, teamB;
-    [SerializeField] private static int membersPerTeam;
-    [SerializeField] private static float scoreFulbo;
-    [SerializeField] private static float scoreSoccer;
-    [SerializeField] private static float volumenGame;
+    private static int scoreTeamRed = 0;
+    private static int scoreTeamBlue = 0;
+    private static int membersPerTeam;
+    private static List<GameObject> teamRed = new List<GameObject>();
+    private static List<GameObject> teamBlue = new List<GameObject>();
+
+    private static List<GameObject> homesPositions = new List<GameObject>();
+
+    private static float scoreFulbo;
+    private static float scoreSoccer;
+
+    private static float durationFight = 2f;
+
+    private static float volumenGame;
+
+    private static Team posessionBall = Team.Red;
+
+    private static MatchState matchState = MatchState.Starting;
+
+    public static MatchState MatchState
+    {
+        get => matchState;
+        set => matchState = value;
+    }
+
+    public static void SetHomesPositions(GameObject father)
+    {
+        homesPositions.Clear();
+
+        foreach (Transform child in father.transform)
+        {
+            homesPositions.Add(child.gameObject);
+        }
+    }
+
+    public static List<GameObject> GetHomesPositions()
+    {
+        return homesPositions;
+    }
 
     public static void SetMembersPerTeam(int members)
     {
         membersPerTeam = members;
-        teamA = new List<GameObject>(membersPerTeam);
-        teamB = new List<GameObject>(membersPerTeam);
+        teamRed = new List<GameObject>(membersPerTeam);
+        teamBlue = new List<GameObject>(membersPerTeam);
     }
 
-    public static void AddGoaltoTeam(char team)
+    public static void AddGoaltoTeam(Team team)
     {
         switch (team)
         {
-            case 'A':
-                scoreTeamA++;
+            case Team.Red:
+                scoreTeamRed++;
                 break;
-            case 'B':
-                scoreTeamB++;
+            case Team.Blue:
+                scoreTeamBlue++;
                 break;
             default:
-                Debug.LogError("Invalid team identifier. Use 'A' or 'B'.");
+                Debug.LogError("Invalid team identifier. Use 'Red' for Red or 'Blue' for Blue.");
                 break;
         }
     }
 
     public static (int, int) GetScoreTeams()
     {
-        return (scoreTeamA, scoreTeamB);
+        return (scoreTeamRed, scoreTeamBlue);
     }
 
     public static int GetMembersPerTeam()
@@ -44,30 +76,30 @@ public static class GameData
         return membersPerTeam;
     }
 
-    public static void SetTeamA(GameObject member)
+    public static void SetTeamRed(GameObject member)
     {
-        teamA.Add(member);
+        teamRed.Add(member);
     }
 
-    public static void SetTeamB(GameObject member)
+    public static void SetTeamBlue(GameObject member)
     {
-        teamB.Add(member);
+        teamBlue.Add(member);
     }
 
-    public static List<GameObject> GetTeamA()
+    public static List<GameObject> GetTeamRed()
     {
-        return teamA;
+        return teamRed;
     }
 
-    public static List<GameObject> GetTeamB()
+    public static List<GameObject> GetTeamBlue()
     {
-        return teamB;
+        return teamBlue;
     }
 
     public static void ClearTeams()
     {
-        teamA.Clear();
-        teamB.Clear();
+        teamRed.Clear();
+        teamBlue.Clear();
     }
 
     public static void SetScoreFulbo(float score)
@@ -98,6 +130,23 @@ public static class GameData
     public static float GetVolumenGame()
     {
         return volumenGame;
+    }
+
+    public static float GetDurationFight()
+    {
+        return durationFight;
+    }
+
+    public static void SetPosessionBall(Team team)
+    {
+        posessionBall = team;
+    }
+
+    
+
+    public static Team? GetPosessionBall()
+    {
+        return posessionBall;
     }
 
 }
