@@ -9,6 +9,7 @@ TagManager:
   - Ball
   - Footballer
   - Fight
+  - MonitorCamera
   layers:
   - Default
   - TransparentFX
@@ -21,8 +22,8 @@ TagManager:
   - Monitor
   - Triggers
   - Colliders
-  - 
-  - 
+  - Limits
+  - Ball
   - 
   - 
   - 

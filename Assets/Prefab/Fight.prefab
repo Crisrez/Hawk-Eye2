@@ -128,6 +128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpriteOrientation
   orientationCamera: {fileID: 0}
+  orientationTag: MonitorCamera
 --- !u!1 &7533813692508815228
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,3 +353,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpriteOrientation
   orientationCamera: {fileID: 0}
+  orientationTag: MainCamera

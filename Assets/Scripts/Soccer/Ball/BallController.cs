@@ -24,6 +24,6 @@ public class BallController : MonoBehaviour
         rb.linearVelocity = Vector3.zero;
         rb.isKinematic = true;
         //rb.angularVelocity = Vector3.zero;
-        transform.position = new Vector3(100,100,100);
+        transform.position = new Vector3(0,100,0);
     }
 }

@@ -1,0 +1,9 @@
+This asset pack is provided under the Creative Commons Attribution 4.0 International (CC BY 4.0) license, with the following Additional Terms from Alenia Studios:
+
+Attribution: You must give appropriate credit to Alenia Studios.
+
+No Redistribution/Resale: You may not redistribute, sub-license, or resell the assets themselves as standalone files or as part of a different asset pack.
+
+No AI Training: Use of these assets for training generative AI models or datasets is strictly prohibited.
+
+Permitted Use: You are free to use, adapt, and build upon these assets for any personal or commercial project (video games, movies, etc.) as long as they are integrated into your work.

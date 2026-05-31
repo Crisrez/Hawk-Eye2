@@ -18,8 +18,10 @@ public class RatingScoreManager : MonoBehaviour
 
     void Update()
     {
-        //Debug.Log("Fulbo Score: " + GameData.GetScoreFulbo());
-        //Debug.Log("Soccer Score: " + GameData.GetScoreSoccer());
+        if (GameData.MatchState != MatchState.Playing)
+        {
+            return;
+        }
 
         sizeAreaMultiplier = Mathf.Lerp(2f, 0.5f, Mathf.InverseLerp(3,7, transform.localScale.x));
 
@@ -36,6 +38,11 @@ public class RatingScoreManager : MonoBehaviour
 
     void OnTriggerStay(Collider other)
     {
+        if (GameData.MatchState != MatchState.Playing)
+        {
+            return;
+        }
+
         Debug.Log("Colliding with: " + other.gameObject.name);
 
         foreach (string tag in tagsFulbo)

@@ -14,7 +14,7 @@ public static class GameData
     private static float scoreFulbo;
     private static float scoreSoccer;
 
-    private static float durationFight = 2f;
+    private static float durationFight = 5f;
 
     private static float volumenGame;
 
