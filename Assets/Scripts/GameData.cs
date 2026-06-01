@@ -14,7 +14,7 @@ public static class GameData
     private static float scoreFulbo;
     private static float scoreSoccer;
 
-    private static float durationFight = 2f;
+    private static float durationFight = 5f;
 
     private static float volumenGame;
 
@@ -147,6 +147,23 @@ public static class GameData
     public static Team? GetPosessionBall()
     {
         return posessionBall;
+    }
+
+
+    public static void ResetData()
+    {
+        scoreTeamRed = 0;
+        scoreTeamBlue = 0;
+        membersPerTeam = 0;
+        teamRed.Clear();
+        teamBlue.Clear();
+        homesPositions.Clear();
+        scoreFulbo = 0f;
+        scoreSoccer = 0f;
+        durationFight = 5f;
+        volumenGame = 1f; // Default volume
+        posessionBall = Team.Red; // Default possession
+        matchState = MatchState.Starting; // Default match state
     }
 
 }

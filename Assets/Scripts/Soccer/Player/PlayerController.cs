@@ -31,6 +31,12 @@ public class PlayerController : MonoBehaviour
         {
             GameData.SetPosessionBall(playerData.MyTeam);
         }
+        else if (playerData.GetInPosition())
+        {
+            Vector3 ballGround = new Vector3(ball.transform.position.x, transform.position.y, ball.transform.position.z);
+
+            transform.LookAt(ballGround); // Face the target position when not moving
+        }
 
         playerData.TeamState = GameData.GetPosessionBall() != playerData.MyTeam ? TeamState.Defensive : TeamState.Offensive;
 
@@ -82,6 +88,9 @@ public class PlayerController : MonoBehaviour
         transform.LookAt(playerData.OpponentGoal); // Face the opponent's goal
 
         ball.transform.SetParent(null); // Detach the ball from the player
+
+        //ball.GetComponent<Rigidbody>().isKinematic = false; // Make the ball non-kinematic to be affected by physics
+
         ball.GetComponent<Rigidbody>().AddForce((playerData.OpponentGoal.position - transform.position).normalized * playerData.ShootForce);
         playerData.SetWithBall(false);
         Invoke("AnalyzeSituation", 1f);
@@ -110,10 +119,13 @@ public class PlayerController : MonoBehaviour
         if (bestTeammate != null )
         {
             ball.transform.SetParent(null); // Detach the ball from the player
-            ball.GetComponent<Rigidbody>().AddForce((bestTeammate.transform.position - transform.position).normalized * playerData.ShootForce);
+
+            //ball.GetComponent<Rigidbody>().isKinematic = false; // Make the ball non-kinematic to be affected by physics
+
+            ball.GetComponent<Rigidbody>().AddForce((bestTeammate.transform.position - transform.position).normalized * playerData.ShootForce * 0.8f);
             playerData.SetWithBall(false);
         }
-        AnalyzeSituation();
+        Invoke("AnalyzeSituation", .3f);
     }
 
     void AnalyzeSituation()
@@ -172,7 +184,12 @@ public class PlayerController : MonoBehaviour
     void ObtainBall()
     {
         playerData.SetWithBall(true);
-        ball.transform.position = transform.position + transform.forward * 1f; // Position the ball in front of the player
+
+        //ball.GetComponent<Rigidbody>().linearVelocity = Vector3.zero; // Stop any existing velocity
+        //ball.GetComponent<Rigidbody>().angularVelocity = Vector3.zero; // Stop any existing angular velocity
+        //ball.GetComponent<Rigidbody>().isKinematic = true; // Make the ball kinematic to follow the player
+
+        ball.transform.position = transform.position + transform.forward; // Position the ball in front of the player
         ball.transform.SetParent(transform); // Make the ball a child of the player to move together
     }
 
@@ -229,7 +246,7 @@ public class PlayerController : MonoBehaviour
 
 
 
-    /*void OnDrawGizmos()
+    void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, playerData.RadarRange);
@@ -237,5 +254,5 @@ public class PlayerController : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, playerData.EnemyDetectionRange);
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(transform.position, playerData.ShootRange);
-    }*/
+    }
 }

@@ -1,20 +1,16 @@
 using UnityEngine;
+using Unity.Cinemachine;
 
 public class PRUEBAS : MonoBehaviour
 {
     //[SerializeField] private GameObject[] red, blue;
     [SerializeField] private GameObject posiciones;
 
+    [SerializeField] private CinemachineCamera menu, aerea;
+
     void Start()
     {
-        /*foreach (GameObject player in red)
-        {
-            GameData.SetTeamRed(player);
-        }
-        foreach (GameObject player in blue)
-        {
-            GameData.SetTeamBlue(player);
-        }*/
+        
     }
     void Update()
     {
@@ -25,5 +21,11 @@ public class PRUEBAS : MonoBehaviour
     {
         GameData.SetMembersPerTeam(3);
         GameData.SetHomesPositions(posiciones);
+    }
+
+    public void CambioDeCamaras()
+    {
+        menu.Priority = 0;
+        aerea.Priority = 1;
     }
 }

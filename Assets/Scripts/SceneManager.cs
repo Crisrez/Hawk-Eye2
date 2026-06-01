@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneManager : MonoBehaviour
 {
-    public static SceneManager Instance { get; private set; }
+    /*public static SceneManager Instance { get; private set; }
 
     void Awake()
     {
@@ -16,7 +16,7 @@ public class SceneManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    }
+    }*/
 
     public void LoadScene(string sceneName)
     {
