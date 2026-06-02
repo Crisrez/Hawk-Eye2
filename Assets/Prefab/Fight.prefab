@@ -141,6 +141,7 @@ GameObject:
   - component: {fileID: 7142637690600710626}
   - component: {fileID: 3915794278149302111}
   - component: {fileID: 5408125411508247611}
+  - component: {fileID: -4229353737715857392}
   m_Layer: 0
   m_Name: Fight
   m_TagString: Fight
@@ -225,6 +226,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a1aa0cd86fb7b84fb6e651567e35a30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FightController
+--- !u!114 &-4229353737715857392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7533813692508815228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1864650657
+      Data2: 1207352751
+      Data3: 20088456
+      Data4: -1056564006
+    Path: event:/standFight
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &7746428563257957940
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,11 +15,38 @@ MonoBehaviour:
   Path: ../Hawk-Eye-FMOD/Hawk-Eye Project/Build/Desktop/Main.bank
   Name: Main
   StudioPath: bank:/Main
-  lastModified: 639153925269828281
+  lastModified: 639160164622033374
   FileSizes:
   - Name: Desktop
-    Value: 931232
+    Value: 1594528
   Exists: 1
+--- !u!114 &-8421389675258146645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/standFight
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/standFight
+  Guid:
+    Data1: 1864650657
+    Data2: 1207352751
+    Data3: 20088456
+    Data4: -1056564006
+  Banks:
+  - {fileID: -8958720092239274504}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-4522142270773071381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,11 +62,38 @@ MonoBehaviour:
   Path: ../Hawk-Eye-FMOD/Hawk-Eye Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639153126032558896
+  lastModified: 639160162813459689
   FileSizes:
   - Name: Desktop
-    Value: 926
+    Value: 1094
   Exists: 1
+--- !u!114 &-3011284966945783316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/goalRed
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/goalRed
+  Guid:
+    Data1: 609608181
+    Data2: 1182415253
+    Data3: 255840438
+    Data4: 950590316
+  Banks:
+  - {fileID: -8958720092239274504}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-1385695793755241095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87,13 +141,17 @@ MonoBehaviour:
   - {fileID: 1931976541077411853}
   - {fileID: -1385695793755241095}
   - {fileID: 8056534398454755379}
+  - {fileID: 2761407586015570882}
+  - {fileID: -8421389675258146645}
+  - {fileID: -3011284966945783316}
+  - {fileID: 8117255591710410884}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1924010973428894571}
   StringsBanks:
   - {fileID: -4522142270773071381}
   cacheVersion: 131859
-  cacheTime: 639153925269828281
+  cacheTime: 639160164622033374
   SerializableEventsDict:
   - key: event:/Hinchas
     index: 0
@@ -101,6 +159,14 @@ MonoBehaviour:
     index: 1
   - key: event:/Hinchas 2
     index: 2
+  - key: event:/BallKicking
+    index: 3
+  - key: event:/standFight
+    index: 4
+  - key: event:/goalRed
+    index: 5
+  - key: event:/goalBlue
+    index: 6
 --- !u!114 &1924010973428894571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,7 +182,7 @@ MonoBehaviour:
   Path: ../Hawk-Eye-FMOD/Hawk-Eye Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639153126032553513
+  lastModified: 639160162813456816
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -148,6 +214,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4000
+--- !u!114 &2761407586015570882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BallKicking
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/BallKicking
+  Guid:
+    Data1: -203855921
+    Data2: 1136605714
+    Data3: 458274204
+    Data4: -80396574
+  Banks:
+  - {fileID: -8958720092239274504}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &8056534398454755379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,3 +268,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4000
+--- !u!114 &8117255591710410884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/goalBlue
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/goalBlue
+  Guid:
+    Data1: -154225923
+    Data2: 1279744563
+    Data3: 695452084
+    Data4: -120991554
+  Banks:
+  - {fileID: -8958720092239274504}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
