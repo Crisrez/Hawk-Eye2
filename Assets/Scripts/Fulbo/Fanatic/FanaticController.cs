@@ -39,4 +39,10 @@ public class FanaticController : MonoBehaviour
             Debug.Log("Fanático ha sido arrestado por un guardia.");
         }
     }
+
+    public Team TeamTarget() 
+    {
+        return target.GetComponent<PlayerData>().MyTeam;
+    }
+
 }
