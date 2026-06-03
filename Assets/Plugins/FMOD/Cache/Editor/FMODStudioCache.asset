@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../Hawk-Eye-FMOD/Hawk-Eye Project/Build/Desktop/Main.bank
   Name: Main
   StudioPath: bank:/Main
-  lastModified: 639160164622033374
+  lastModified: 639160324032405449
   FileSizes:
   - Name: Desktop
-    Value: 1594528
+    Value: 1883744
   Exists: 1
 --- !u!114 &-8421389675258146645
 MonoBehaviour:
@@ -47,6 +47,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-8411168856826052872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/securityCom
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/securityCom
+  Guid:
+    Data1: -2020225501
+    Data2: 1100889613
+    Data3: -118084699
+    Data4: -1773306362
+  Banks:
+  - {fileID: -8958720092239274504}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-4522142270773071381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,10 +89,10 @@ MonoBehaviour:
   Path: ../Hawk-Eye-FMOD/Hawk-Eye Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639160162813459689
+  lastModified: 639160205568835072
   FileSizes:
   - Name: Desktop
-    Value: 1094
+    Value: 1200
   Exists: 1
 --- !u!114 &-3011284966945783316
 MonoBehaviour:
@@ -145,13 +172,15 @@ MonoBehaviour:
   - {fileID: -8421389675258146645}
   - {fileID: -3011284966945783316}
   - {fileID: 8117255591710410884}
+  - {fileID: -8411168856826052872}
+  - {fileID: 3501070745055614718}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1924010973428894571}
   StringsBanks:
   - {fileID: -4522142270773071381}
   cacheVersion: 131859
-  cacheTime: 639160164622033374
+  cacheTime: 639160324032405449
   SerializableEventsDict:
   - key: event:/Hinchas
     index: 0
@@ -167,6 +196,10 @@ MonoBehaviour:
     index: 5
   - key: event:/goalBlue
     index: 6
+  - key: event:/securityCom
+    index: 7
+  - key: event:/laMasMaravillosaMusica
+    index: 8
 --- !u!114 &1924010973428894571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,7 +215,7 @@ MonoBehaviour:
   Path: ../Hawk-Eye-FMOD/Hawk-Eye Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639160162813456816
+  lastModified: 639160205568833157
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -237,6 +270,33 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3501070745055614718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/laMasMaravillosaMusica
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/laMasMaravillosaMusica
+  Guid:
+    Data1: 63510545
+    Data2: 1338616484
+    Data3: 1500610998
+    Data4: 1462483135
+  Banks:
+  - {fileID: -8958720092239274504}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20

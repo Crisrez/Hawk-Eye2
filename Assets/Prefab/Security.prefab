@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8954561842294938127}
   - component: {fileID: 3777502481685835642}
   - component: {fileID: 7809610642219819425}
+  - component: {fileID: -8052869900212371810}
   m_Layer: 0
   m_Name: Security
   m_TagString: Security
@@ -192,6 +193,25 @@ MonoBehaviour:
   running: 5
   stayTime: 2
   currentState: 0
+--- !u!114 &-8052869900212371810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540351587452914277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adab02891579546939a94d65ae10d157, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::securityWalkieTakie
+  securityCom:
+    Guid:
+      Data1: -2020225501
+      Data2: 1100889613
+      Data3: -118084699
+      Data4: -1773306362
+    Path: event:/securityCom
 --- !u!1 &6068490813814495357
 GameObject:
   m_ObjectHideFlags: 0
