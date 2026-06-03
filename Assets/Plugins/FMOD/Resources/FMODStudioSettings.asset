@@ -317,8 +317,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../Hawk-Eye-FMOD/Hawk-Eye Project/Hawk-Eye Project.fspro
-  sourceBankPath: ../Hawk-Eye-FMOD/Hawk-Eye Project/Build
+  sourceProjectPath: FMOD Project/FMOD Project Hawk-Eye /Hawk-Eye Project.fspro
+  sourceBankPath: FMOD Project/FMOD Project Hawk-Eye /Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
