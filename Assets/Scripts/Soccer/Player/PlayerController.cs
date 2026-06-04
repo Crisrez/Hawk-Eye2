@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        playerData.SetInPosition(Vector3.Distance(transform.position, playerData.HomePosition.position) < 1.1f);
+        playerData.SetInPosition(Vector3.Distance(transform.position, playerData.HomePosition.position) < 1.2f);
 
         if (playerData.WithBall)
         {
