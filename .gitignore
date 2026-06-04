@@ -27,6 +27,9 @@
 
 # Visual Studio cache directory
 .vs/
+.idea/
+.vscode/
+
 
 # Gradle cache directory
 .gradle/
@@ -73,3 +76,22 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# FMOD Studio Studio Project
+.fmod_cache/
+*.user
+
+# Archivos del sistema y logs
+.DS_Store
+Thumbs.db
+fmod_editor.log
+
+# Asegurar que los archivos binarios de audio y bancos no se modifiquen
+
+
+# OS files
+/.DS_Store
+
+# FMOD cache
+FMODProject/**/.cache/
+Assets/Plugins/FMOD/Cache/

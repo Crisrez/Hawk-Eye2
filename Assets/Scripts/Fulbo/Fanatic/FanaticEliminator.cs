@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class FanaticcEliminator : MonoBehaviour
+public class FanaticEliminator : MonoBehaviour
 {
     void OnTriggerEnter(Collider other)
     {

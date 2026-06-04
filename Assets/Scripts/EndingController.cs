@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 public class EndingController : MonoBehaviour
 {
@@ -25,6 +27,7 @@ public class EndingController : MonoBehaviour
     void TurnOffTV()
     {
         endingCanvas.SetActive(true);
+        Cursor.visible = true;
         Invoke(nameof(ShowEnding), timeToShowEnding);
     }
 

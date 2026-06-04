@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Forzar a Git a usar saltos de l’nea LF para archivos de FMOD
+*.fspro text eol=lf
+*.xml text eol=lf
+*.bnd text eol=lf
+
+# Tratar audio y bancos de FMOD como archivos binarios
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.bank binary
