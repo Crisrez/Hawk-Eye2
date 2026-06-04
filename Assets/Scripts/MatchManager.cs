@@ -114,4 +114,9 @@ public class MatchManager : MonoBehaviour
         GameData.MatchState = MatchState.Playing;
     }
 
+    public float GetTimeRemaining()
+    {
+        return timer;
+    }
+
 }
