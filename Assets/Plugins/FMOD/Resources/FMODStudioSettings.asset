@@ -317,8 +317,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: FMOD Project/FMOD Project Hawk-Eye /Hawk-Eye Project.fspro
-  sourceBankPath: FMOD Project/FMOD Project Hawk-Eye /Build
+  sourceProjectPath: FMODProject/FMODHawkEye/Hawk-Eye Project.fspro
+  sourceBankPath: FMODProject/FMODHawkEye/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -340,10 +340,8 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks:
-  - Master
-  Banks:
-  - Main
+  MasterBanks: []
+  Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
