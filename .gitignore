@@ -87,14 +87,11 @@ Thumbs.db
 fmod_editor.log
 
 # Asegurar que los archivos binarios de audio y bancos no se modifiquen
-*.wav binary
-*.mp3 binary
-*.ogg binary
-*.bank binary
+
 
 # OS files
 /.DS_Store
 
 # FMOD cache
-FMODProject//.cache/
+FMODProject/**/.cache/
 Assets/Plugins/FMOD/Cache/
