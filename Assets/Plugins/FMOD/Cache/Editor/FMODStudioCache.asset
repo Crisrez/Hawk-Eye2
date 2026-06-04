@@ -1,25 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8958720092239274504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Main.bank
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
-  Path: ../Hawk-Eye-FMOD/Hawk-Eye Project/Build/Desktop/Main.bank
-  Name: Main
-  StudioPath: bank:/Main
-  lastModified: 639160687730689829
-  FileSizes:
-  - Name: Desktop
-    Value: 1883744
-  Exists: 1
 --- !u!114 &-8421389675258146645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,7 +19,7 @@ MonoBehaviour:
     Data3: 20088456
     Data4: -1056564006
   Banks:
-  - {fileID: -8958720092239274504}
+  - {fileID: 8609172079785094771}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -66,7 +46,7 @@ MonoBehaviour:
     Data3: -118084699
     Data4: -1773306362
   Banks:
-  - {fileID: -8958720092239274504}
+  - {fileID: 8609172079785094771}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -74,7 +54,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-4522142270773071381
+--- !u!114 &-6358310297697260855
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -86,13 +66,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
-  Path: ../Hawk-Eye-FMOD/Hawk-Eye Project/Build/Desktop/Master.strings.bank
+  Path: FMODProject/FMODHawkEye/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639160205568835072
+  lastModified: 639161902919731618
   FileSizes:
   - Name: Desktop
-    Value: 1200
+    Value: 1238
   Exists: 1
 --- !u!114 &-3011284966945783316
 MonoBehaviour:
@@ -113,7 +93,7 @@ MonoBehaviour:
     Data3: 255840438
     Data4: 950590316
   Banks:
-  - {fileID: -8958720092239274504}
+  - {fileID: 8609172079785094771}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -140,7 +120,7 @@ MonoBehaviour:
     Data3: 1007074185
     Data4: -2136208769
   Banks:
-  - {fileID: -8958720092239274504}
+  - {fileID: 8609172079785094771}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -148,6 +128,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 31985
+--- !u!114 &-319026471455476003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/fanatic
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/fanatic
+  Guid:
+    Data1: 1169178710
+    Data2: 1310841527
+    Data3: -569568381
+    Data4: -779907060
+  Banks:
+  - {fileID: 8609172079785094771}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,9 +168,9 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EventCache
   EditorBanks:
-  - {fileID: -4522142270773071381}
-  - {fileID: -8958720092239274504}
-  - {fileID: 1924010973428894571}
+  - {fileID: -6358310297697260855}
+  - {fileID: 8609172079785094771}
+  - {fileID: 3441196013687869723}
   EditorEvents:
   - {fileID: 1931976541077411853}
   - {fileID: -1385695793755241095}
@@ -174,13 +181,14 @@ MonoBehaviour:
   - {fileID: 8117255591710410884}
   - {fileID: -8411168856826052872}
   - {fileID: 3501070745055614718}
+  - {fileID: -319026471455476003}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 1924010973428894571}
+  - {fileID: 3441196013687869723}
   StringsBanks:
-  - {fileID: -4522142270773071381}
+  - {fileID: -6358310297697260855}
   cacheVersion: 131859
-  cacheTime: 639160687730689829
+  cacheTime: 639161912749257764
   SerializableEventsDict:
   - key: event:/Hinchas
     index: 0
@@ -200,26 +208,8 @@ MonoBehaviour:
     index: 7
   - key: event:/laMasMaravillosaMusica
     index: 8
---- !u!114 &1924010973428894571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
-  Path: ../Hawk-Eye-FMOD/Hawk-Eye Project/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 639160205568833157
-  FileSizes:
-  - Name: Desktop
-    Value: 1074
-  Exists: 1
+  - key: event:/fanatic
+    index: 9
 --- !u!114 &1931976541077411853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,7 +229,7 @@ MonoBehaviour:
     Data3: 1688380061
     Data4: -42271697
   Banks:
-  - {fileID: -8958720092239274504}
+  - {fileID: 8609172079785094771}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -266,14 +256,34 @@ MonoBehaviour:
     Data3: 458274204
     Data4: -80396574
   Banks:
-  - {fileID: -8958720092239274504}
+  - {fileID: 8609172079785094771}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &3441196013687869723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
+  Path: FMODProject/FMODHawkEye/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639161902919729345
+  FileSizes:
+  - Name: Desktop
+    Value: 1074
+  Exists: 1
 --- !u!114 &3501070745055614718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -293,7 +303,7 @@ MonoBehaviour:
     Data3: 1500610998
     Data4: 1462483135
   Banks:
-  - {fileID: -8958720092239274504}
+  - {fileID: 8609172079785094771}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -320,7 +330,7 @@ MonoBehaviour:
     Data3: -834369367
     Data4: 709974768
   Banks:
-  - {fileID: -8958720092239274504}
+  - {fileID: 8609172079785094771}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -347,7 +357,7 @@ MonoBehaviour:
     Data3: 695452084
     Data4: -120991554
   Banks:
-  - {fileID: -8958720092239274504}
+  - {fileID: 8609172079785094771}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -355,3 +365,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &8609172079785094771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Main.bank
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
+  Path: FMODProject/FMODHawkEye/Build/Desktop/Main.bank
+  Name: Main
+  StudioPath: bank:/Main
+  lastModified: 639161912749257764
+  FileSizes:
+  - Name: Desktop
+    Value: 1942848
+  Exists: 1

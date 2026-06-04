@@ -5,7 +5,7 @@
 			<value>BallKicking</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{07cb8535-46ef-4dd7-8e1c-6b43cb764ab0}</destination>
@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{502c242e-19a8-4a46-afb8-fb4fed35896c}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{dfd4a568-4a1c-4236-aca3-6253032a2668}</destination>
 		</relationship>
@@ -96,6 +99,7 @@
 	<object class="MixerBusEffectChain" id="{dfd4a568-4a1c-4236-aca3-6253032a2668}">
 		<relationship name="effects">
 			<destination>{6ac7535a-0c9d-49aa-a605-3398d6c1e7df}</destination>
+			<destination>{0373c71f-d74f-4116-9f8c-e74e37c45da9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f49d0011-9d74-4046-a78b-195bb9d567bd}" />
@@ -116,6 +120,17 @@
 	</object>
 	<object class="MixerBusFader" id="{047b3642-bcf8-46f7-afee-9a71bfa250e2}" />
 	<object class="MixerBusFader" id="{6ac7535a-0c9d-49aa-a605-3398d6c1e7df}" />
+	<object class="SpatialiserEffect" id="{0373c71f-d74f-4116-9f8c-e74e37c45da9}">
+		<property name="minimumDistance">
+			<value>7.20000029</value>
+		</property>
+		<property name="maximumDistance">
+			<value>75</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{51c7d049-30a8-4407-9f87-6461696550d2}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>

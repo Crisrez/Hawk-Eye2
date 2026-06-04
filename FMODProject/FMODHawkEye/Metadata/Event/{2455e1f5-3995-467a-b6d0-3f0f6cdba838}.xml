@@ -117,5 +117,11 @@
 		<property name="overrideRange">
 			<value>true</value>
 		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>22</value>
+		</property>
 	</object>
 </objects>
