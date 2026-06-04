@@ -27,6 +27,9 @@
 
 # Visual Studio cache directory
 .vs/
+.idea/
+.vscode/
+
 
 # Gradle cache directory
 .gradle/
@@ -88,3 +91,10 @@ fmod_editor.log
 *.mp3 binary
 *.ogg binary
 *.bank binary
+
+# OS files
+/.DS_Store
+
+# FMOD cache
+FMODProject//.cache/
+Assets/Plugins/FMOD/Cache/
