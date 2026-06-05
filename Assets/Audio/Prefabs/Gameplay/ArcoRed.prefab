@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8978588053581269455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5857016586748232186}
+  - component: {fileID: 7373820777243240089}
+  - component: {fileID: 6038622513118906492}
+  - component: {fileID: 5561277652506036509}
+  m_Layer: 0
+  m_Name: ArcoRed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5857016586748232186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8978588053581269455}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -24.3, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!65 &7373820777243240089
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8978588053581269455}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2, y: 2, z: 5.3837333}
+  m_Center: {x: 0.5, y: 0.5, z: 0.5}
+--- !u!114 &6038622513118906492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8978588053581269455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4b48050312b5c4088daf42d9d4dde2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GoalController
+  ballController: {fileID: 0}
+  teamIdentifier: 0
+--- !u!114 &5561277652506036509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8978588053581269455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33298d1f96a8c4b8b9ed00e95e2164d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::goalBlue
+  goalBlueEvent:
+    Guid:
+      Data1: -154225923
+      Data2: 1279744563
+      Data3: 695452084
+      Data4: -120991554
+    Path: event:/goalBlue
+  otherStandEvent:
+    Guid:
+      Data1: 63510545
+      Data2: 1338616484
+      Data3: 1500610998
+      Data4: 1462483135
+    Path: event:/laMasMaravillosaMusica
+  otherStandAudioPoint: {fileID: 0}
