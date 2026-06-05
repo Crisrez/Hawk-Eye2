@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{39b3aaf7-4832-4d77-9c0f-0d0fc6d69421}">
+		<property name="name">
+			<value>La_Banda_Loca</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e08f9751-f4d6-4f68-9932-90071b18cae3}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{df8e63b3-635c-4a88-ba50-4de883ae5f73}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{df8e63b3-635c-4a88-ba50-4de883ae5f73}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Silencio</value>
+			<value>elMaestro</value>
+			<value>Tutti</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

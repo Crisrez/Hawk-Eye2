@@ -69,10 +69,10 @@ MonoBehaviour:
   Path: FMODProject/FMODHawkEye/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639161902919731618
+  lastModified: 639162149666531214
   FileSizes:
   - Name: Desktop
-    Value: 1238
+    Value: 1338
   Exists: 1
 --- !u!114 &-3011284966945783316
 MonoBehaviour:
@@ -182,13 +182,14 @@ MonoBehaviour:
   - {fileID: -8411168856826052872}
   - {fileID: 3501070745055614718}
   - {fileID: -319026471455476003}
+  - {fileID: 5557495732435646818}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3441196013687869723}
   StringsBanks:
   - {fileID: -6358310297697260855}
   cacheVersion: 131859
-  cacheTime: 639161912749257764
+  cacheTime: 639162166243971694
   SerializableEventsDict:
   - key: event:/Hinchas
     index: 0
@@ -210,6 +211,35 @@ MonoBehaviour:
     index: 8
   - key: event:/fanatic
     index: 9
+  - key: event:/musicaDeLaBanda
+    index: 10
+--- !u!114 &448576182244631782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/musicaDeLaBanda/La_Banda_Loca
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: La_Banda_Loca
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 1
+  ID:
+    data1: 109368634
+    data2: 3646911365
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Silencio
+  - elMaestro
+  - Tutti
+  Exists: 1
 --- !u!114 &1931976541077411853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,7 +309,7 @@ MonoBehaviour:
   Path: FMODProject/FMODHawkEye/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639161902919729345
+  lastModified: 639162149666528642
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -311,6 +341,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &5557495732435646818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/musicaDeLaBanda
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/musicaDeLaBanda
+  Guid:
+    Data1: -1321994599
+    Data2: 1277735807
+    Data3: -2090948183
+    Data4: 792634640
+  Banks:
+  - {fileID: 8609172079785094771}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 448576182244631782}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 44739242
 --- !u!114 &8056534398454755379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -380,8 +438,8 @@ MonoBehaviour:
   Path: FMODProject/FMODHawkEye/Build/Desktop/Main.bank
   Name: Main
   StudioPath: bank:/Main
-  lastModified: 639161912749257764
+  lastModified: 639162166243971694
   FileSizes:
   - Name: Desktop
-    Value: 1942848
+    Value: 2341376
   Exists: 1
