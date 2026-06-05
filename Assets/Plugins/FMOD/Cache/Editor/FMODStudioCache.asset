@@ -69,10 +69,10 @@ MonoBehaviour:
   Path: FMODProject/FMODHawkEye/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639162149666531214
+  lastModified: 639162202769969552
   FileSizes:
   - Name: Desktop
-    Value: 1338
+    Value: 1392
   Exists: 1
 --- !u!114 &-3011284966945783316
 MonoBehaviour:
@@ -124,7 +124,8 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: 3393086806995558617}
   MinDistance: 1
   MaxDistance: 20
   Length: 31985
@@ -189,7 +190,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -6358310297697260855}
   cacheVersion: 131859
-  cacheTime: 639162166243971694
+  cacheTime: 639162221633723175
   SerializableEventsDict:
   - key: event:/Hinchas
     index: 0
@@ -294,6 +295,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &3393086806995558617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/amb_StadiumCrowd01.wav_02/AngryCrowd
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: AngryCrowd
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 467330835
+    data2: 3343637306
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &3441196013687869723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,7 +334,7 @@ MonoBehaviour:
   Path: FMODProject/FMODHawkEye/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639162149666528642
+  lastModified: 639162202769967710
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -336,7 +361,7 @@ MonoBehaviour:
   - {fileID: 8609172079785094771}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -438,8 +463,8 @@ MonoBehaviour:
   Path: FMODProject/FMODHawkEye/Build/Desktop/Main.bank
   Name: Main
   StudioPath: bank:/Main
-  lastModified: 639162166243971694
+  lastModified: 639162221633723175
   FileSizes:
   - Name: Desktop
-    Value: 2341376
+    Value: 2847744
   Exists: 1

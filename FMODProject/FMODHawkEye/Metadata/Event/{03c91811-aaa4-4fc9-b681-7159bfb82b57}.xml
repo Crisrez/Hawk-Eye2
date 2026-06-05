@@ -95,8 +95,9 @@
 	<object class="MixerBusPanner" id="{1ba14be0-ce77-49d7-a6d4-f10d73389ceb}" />
 	<object class="MixerBusEffectChain" id="{a25a435a-2923-4cfc-aeaf-5f57c4fe3364}">
 		<relationship name="effects">
-			<destination>{e35fab6d-f676-4597-a44f-0714b48f3dea}</destination>
 			<destination>{e9d258cc-63bf-482e-abe4-ca253a2d41ef}</destination>
+			<destination>{e35fab6d-f676-4597-a44f-0714b48f3dea}</destination>
+			<destination>{f691135d-ecc7-40ce-bc89-a32091a55c60}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f175655c-3c8c-4b5a-8413-9d923f51d6a1}" />
@@ -104,12 +105,14 @@
 		<property name="looping">
 			<value>true</value>
 		</property>
+		<property name="playCount">
+			<value>2</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{736c7821-637b-498e-900f-4b0cade897eb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{96a9aa25-c74f-4f0e-b909-cc7432d37326}" />
-	<object class="MixerBusFader" id="{e35fab6d-f676-4597-a44f-0714b48f3dea}" />
 	<object class="ObjectSpatialiserEffect" id="{e9d258cc-63bf-482e-abe4-ca253a2d41ef}">
 		<property name="maximumDistance">
 			<value>65</value>
@@ -121,7 +124,34 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>20</value>
+			<value>26</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{e35fab6d-f676-4597-a44f-0714b48f3dea}" />
+	<object class="SFXReverbEffect" id="{f691135d-ecc7-40ce-bc89-a32091a55c60}">
+		<property name="decayTime">
+			<value>5500</value>
+		</property>
+		<property name="earlyDelay">
+			<value>58</value>
+		</property>
+		<property name="lateDelay">
+			<value>90</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>45</value>
+		</property>
+		<property name="diffusion">
+			<value>79</value>
+		</property>
+		<property name="lowShelfFrequency">
+			<value>190</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>43</value>
+		</property>
+		<property name="wetLevel">
+			<value>-12.5</value>
 		</property>
 	</object>
 </objects>
