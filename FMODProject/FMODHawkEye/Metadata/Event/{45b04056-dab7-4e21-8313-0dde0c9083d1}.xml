@@ -100,6 +100,7 @@
 		<relationship name="effects">
 			<destination>{a681a4dc-7dbf-4d9e-a816-da6944c69b17}</destination>
 			<destination>{971f7e65-2e8e-4460-b0a4-db804e099fee}</destination>
+			<destination>{cd6a17c5-6bf3-4c78-ac0e-bae57dbdebe4}</destination>
 			<destination>{d8062d22-fdc9-4707-8e53-ee29cb1830bf}</destination>
 		</relationship>
 	</object>
@@ -166,6 +167,32 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{971f7e65-2e8e-4460-b0a4-db804e099fee}" />
+	<object class="SFXReverbEffect" id="{cd6a17c5-6bf3-4c78-ac0e-bae57dbdebe4}">
+		<property name="decayTime">
+			<value>5500</value>
+		</property>
+		<property name="earlyDelay">
+			<value>58</value>
+		</property>
+		<property name="lateDelay">
+			<value>90</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>45</value>
+		</property>
+		<property name="diffusion">
+			<value>79</value>
+		</property>
+		<property name="lowShelfFrequency">
+			<value>190</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>43</value>
+		</property>
+		<property name="wetLevel">
+			<value>-12.5</value>
+		</property>
+	</object>
 	<object class="SpatialiserEffect" id="{d8062d22-fdc9-4707-8e53-ee29cb1830bf}">
 		<property name="minimumDistance">
 			<value>6.20000029</value>
