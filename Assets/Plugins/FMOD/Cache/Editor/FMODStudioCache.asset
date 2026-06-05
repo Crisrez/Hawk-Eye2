@@ -69,7 +69,7 @@ MonoBehaviour:
   Path: FMODProject/FMODHawkEye/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639161902919731618
+  lastModified: 639162007543886668
   FileSizes:
   - Name: Desktop
     Value: 1238
@@ -188,7 +188,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -6358310297697260855}
   cacheVersion: 131859
-  cacheTime: 639161912749257764
+  cacheTime: 639162007543886668
   SerializableEventsDict:
   - key: event:/Hinchas
     index: 0
@@ -279,7 +279,7 @@ MonoBehaviour:
   Path: FMODProject/FMODHawkEye/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639161902919729345
+  lastModified: 639162004235971847
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -380,7 +380,7 @@ MonoBehaviour:
   Path: FMODProject/FMODHawkEye/Build/Desktop/Main.bank
   Name: Main
   StudioPath: bank:/Main
-  lastModified: 639161912749257764
+  lastModified: 639162007543846576
   FileSizes:
   - Name: Desktop
     Value: 1942848
