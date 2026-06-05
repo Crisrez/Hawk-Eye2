@@ -28,7 +28,7 @@ public class EndingController : MonoBehaviour
     {
         endingCanvas.SetActive(true);
         Cursor.visible = true;
-        Invoke(nameof(ShowEnding), timeToShowEnding);
+        Invoke(nameof(ShowEnding), timeToShowEnding / 2f);
     }
 
     void ShowEnding()
