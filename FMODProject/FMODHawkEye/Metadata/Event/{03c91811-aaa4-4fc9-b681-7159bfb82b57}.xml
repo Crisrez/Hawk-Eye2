@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{d31ba15b-0e2a-4675-b312-25041871c20f}">
+		<relationship name="modulators">
+			<destination>{0fc87739-2066-4a10-a44c-87a635061f20}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{a25a435a-2923-4cfc-aeaf-5f57c4fe3364}</destination>
 		</relationship>
@@ -84,7 +87,7 @@
 	</object>
 	<object class="MultiSound" id="{e97a3a1d-1a1c-4db3-b93e-49c26d396c05}">
 		<relationship name="sounds">
-			<destination>{2faab7fa-8667-4c5d-a237-b95727dbcba4}</destination>
+			<destination>{d077c5e3-8ff7-4acd-a10e-2d29eb8cd545}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{a781c8fd-f488-4575-86f1-a6be3ddcf6aa}">
@@ -93,6 +96,23 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1ba14be0-ce77-49d7-a6d4-f10d73389ceb}" />
+	<object class="ADSRModulator" id="{0fc87739-2066-4a10-a44c-87a635061f20}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>40</value>
+		</property>
+		<property name="releaseTime">
+			<value>320</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{a25a435a-2923-4cfc-aeaf-5f57c4fe3364}">
 		<relationship name="effects">
 			<destination>{e9d258cc-63bf-482e-abe4-ca253a2d41ef}</destination>
@@ -101,18 +121,9 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f175655c-3c8c-4b5a-8413-9d923f51d6a1}" />
-	<object class="SingleSound" id="{2faab7fa-8667-4c5d-a237-b95727dbcba4}">
-		<property name="volume">
-			<value>8</value>
-		</property>
-		<property name="looping">
-			<value>true</value>
-		</property>
-		<property name="playCount">
-			<value>2</value>
-		</property>
+	<object class="SingleSound" id="{d077c5e3-8ff7-4acd-a10e-2d29eb8cd545}">
 		<relationship name="audioFile">
-			<destination>{736c7821-637b-498e-900f-4b0cade897eb}</destination>
+			<destination>{ba0c94e5-0875-4e2e-816d-a4c710d87996}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{96a9aa25-c74f-4f0e-b909-cc7432d37326}" />
@@ -130,7 +141,7 @@
 			<value>17.5</value>
 		</property>
 		<property name="minimumExtent">
-			<value>138</value>
+			<value>208</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{e35fab6d-f676-4597-a44f-0714b48f3dea}" />
