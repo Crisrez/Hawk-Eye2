@@ -96,10 +96,10 @@ MonoBehaviour:
   Path: FMODProject/FMODHawkEye/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639162256013912680
+  lastModified: 639162627002640418
   FileSizes:
   - Name: Desktop
-    Value: 1434
+    Value: 1510
   Exists: 1
 --- !u!114 &-3011284966945783316
 MonoBehaviour:
@@ -212,13 +212,14 @@ MonoBehaviour:
   - {fileID: -319026471455476003}
   - {fileID: 5557495732435646818}
   - {fileID: -7993377134661736670}
+  - {fileID: 4308813111900001888}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3441196013687869723}
   StringsBanks:
   - {fileID: -6358310297697260855}
   cacheVersion: 131859
-  cacheTime: 639162615427008648
+  cacheTime: 639162629996081638
   SerializableEventsDict:
   - key: event:/Hinchas
     index: 0
@@ -244,6 +245,8 @@ MonoBehaviour:
     index: 10
   - key: event:/Musica
     index: 11
+  - key: event:/ESM_MG3_fx_button_confirm_simple_menu_text_01
+    index: 12
 --- !u!114 &448576182244631782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -364,7 +367,7 @@ MonoBehaviour:
   Path: FMODProject/FMODHawkEye/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639162256013910770
+  lastModified: 639162627002636868
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -391,6 +394,33 @@ MonoBehaviour:
   - {fileID: 8609172079785094771}
   IsStream: 1
   Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4308813111900001888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ESM_MG3_fx_button_confirm_simple_menu_text_01
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/ESM_MG3_fx_button_confirm_simple_menu_text_01
+  Guid:
+    Data1: -1216958908
+    Data2: 1220020424
+    Data3: -1727662412
+    Data4: -2146051296
+  Banks:
+  - {fileID: 8609172079785094771}
+  IsStream: 0
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -493,8 +523,8 @@ MonoBehaviour:
   Path: FMODProject/FMODHawkEye/Build/Desktop/Main.bank
   Name: Main
   StudioPath: bank:/Main
-  lastModified: 639162615427008648
+  lastModified: 639162629996081638
   FileSizes:
   - Name: Desktop
-    Value: 3536960
+    Value: 3540352
   Exists: 1

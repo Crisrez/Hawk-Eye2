@@ -288,6 +288,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 602717292}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &93680536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -714,6 +726,18 @@ MonoBehaviour:
       - m_Target: {fileID: 204229419}
         m_TargetAssemblyTypeName: ExitGame, Assembly-CSharp
         m_MethodName: Exit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 602717292}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1486,6 +1510,17 @@ MonoBehaviour:
       BarrelClipping: 0.25
       Anamorphism: 0
   BlendHint: 0
+--- !u!114 &602717292 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6112892390604209254, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
+  m_PrefabInstance: {fileID: 8184071021985354770}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
 --- !u!1 &754515727
 GameObject:
   m_ObjectHideFlags: 0
@@ -2026,6 +2061,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 602717292}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1066868676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2271,6 +2318,18 @@ MonoBehaviour:
       - m_Target: {fileID: 323114524}
         m_TargetAssemblyTypeName: CameraControlMenu, Assembly-CSharp
         m_MethodName: ChangeToConfig
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 602717292}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2827,9 +2886,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1867948603}
   - component: {fileID: 1867948602}
-  - component: {fileID: 1867948601}
   - component: {fileID: 1867948604}
   - component: {fileID: 1867948605}
+  - component: {fileID: 1867948606}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2837,14 +2896,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1867948601
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1867948600}
-  m_Enabled: 1
 --- !u!20 &1867948602
 Camera:
   m_ObjectHideFlags: 0
@@ -2987,6 +3038,20 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
+--- !u!114 &1867948606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867948600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioListener
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!1 &1927645839
 GameObject:
   m_ObjectHideFlags: 0
@@ -3433,6 +3498,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 602717292}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1963877595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3589,6 +3666,18 @@ MonoBehaviour:
       - m_Target: {fileID: 514657916}
         m_TargetAssemblyTypeName: AnimacionPlay, Assembly-CSharp
         m_MethodName: DispararPelota
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 602717292}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4368,6 +4457,91 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1001 &8184071021985354770
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4502836768784160303, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
+      propertyPath: m_Name
+      value: UI_Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207350821497165093, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -47.76398
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207350821497165093, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207350821497165093, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1940.7096
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207350821497165093, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207350821497165093, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207350821497165093, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207350821497165093, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207350821497165093, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207350821497165093, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207350821497165093, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6112892390604209254, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/ESM_MG3_fx_button_confirm_simple_menu_text_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6112892390604209254, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6112892390604209254, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6112892390604209254, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: -1216958908
+      objectReference: {fileID: 0}
+    - target: {fileID: 6112892390604209254, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1220020424
+      objectReference: {fileID: 0}
+    - target: {fileID: 6112892390604209254, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: -1727662412
+      objectReference: {fileID: 0}
+    - target: {fileID: 6112892390604209254, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -2146051296
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dea3f9ac38dae4a69aa43bef2748e26d, type: 3}
 --- !u!114 &8227248808363032573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4474,3 +4648,4 @@ SceneRoots:
   - {fileID: 486470655}
   - {fileID: 1564577551}
   - {fileID: 1853892105746916684}
+  - {fileID: 8184071021985354770}
