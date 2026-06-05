@@ -2072,13 +2072,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.4218412, y: -0.05493397, z: 0.02561613, w: 0.90464145}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -6.95, z: 0}
 --- !u!114 &410087042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4423,6 +4423,7 @@ GameObject:
   - component: {fileID: 939757759}
   - component: {fileID: 939757761}
   - component: {fileID: 939757760}
+  - component: {fileID: 939757762}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -4446,8 +4447,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.00018310547}
-  m_SizeDelta: {x: 600, y: -0.00039672852}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 600, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &939757760
 MonoBehaviour:
@@ -4469,20 +4470,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<size=55>CREDITOS DE TRANSMISION</size>\n\n<color=#fff>PROGRAMACION Y
-    CODIGO\n[Crisrez]</color>\n\nTiempo total de transmision:\n90 segundos.\n\nBugs
-    convertidos en mecanicas: \nDemasiados.\n\n<color=green>ARTE 3D Y MODELADO\n[Lisandro
-    A.]</color>\n\nGoles capturados en alta definicion: \n%goles%.\n\nCachiporras
-    modeladas con amor: \n1.\n\nARTE 2D Y TEXTURAS\n[Emma Pfann]\n\nDisturbios y
-    caos inmortalizados: \n%quilombo%.\n\nHinchas enfurecidos dibujados a mano: \nUna
-    multitud.\n\nMUSICA Y EFECTOS DE SONIDO\n[Fabricio]\n\nDecibelios de gritos sintonizados:
-    \nAl maximo.\n\nBanda sonora aprobada por el sindicato de camarografos.\n\n\n\n\nNOTICIA
-    DE ULTIMA HORA:\n\n\u201CFuertes declaraciones: Varias pelotas del estadio denuncian
-    crisis existencial y maltrato laboral debido a las patadas de los jugadores.
-    Ampliaremos en TODO PELOTA\u201D.\n\n<size=80>\xA1MUCHAS GRACIAS POR JUGAR!</size>\n\n\n\n\n\n\n\n\n\n<size=20>Nota
-    legal: Ningun hincha, guardia de seguridad o dron sufrio danos reales durante
-    la filmacion de este juego. Sin embargo, no podemos decir lo mismo del trauma
-    psicologico que sufrieron las pelotas de futbol.</size>\n"
+  m_text: "<size=55>CREDITOS DE TRANSMISION</size>\n\n<color=red>PROGRAMACION Y CODIGO\n[Crisrez]</color>\n\nTiempo
+    total de transmision:\n90 segundos.\n\nBugs convertidos en mecanicas: \nDemasiados.\n\n<color=green>ARTE
+    3D Y MODELADO\n[Lisandro A.]</color>\n\nGoles capturados en alta definicion:
+    \n%goles%.\n\nCachiporras modeladas con amor: \n1.\n\n<color=#1ec1e6>ARTE 2D
+    Y TEXTURAS\n[Emma Pfann]</color>\n\nDisturbios y caos inmortalizados: \n%quilombo%.\n\nHinchas
+    enfurecidos dibujados a mano: \nUna multitud.\n\nMUSICA Y EFECTOS DE SONIDO\n[Fabricio]\n\nDecibelios
+    de gritos sintonizados: \nAl maximo.\n\nBanda sonora aprobada por el sindicato
+    de camarografos.\n\n\n\n\nNOTICIA DE ULTIMA HORA:\n\n\u201CFuertes declaraciones:
+    \nVarias pelotas del estadio \ndenuncian crisis existencial y\n maltrato laboral
+    debido a las patadas de los jugadores. \nAmpliaremos en TODO PELOTA\u201D.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<size=80>\xA1MUCHAS
+    GRACIAS POR JUGAR!</size>\n\n\n\n\n\n\n\n\n\n\n\n\n\n<size=20>Nota legal: Ningun
+    hincha, guardia de seguridad o dron sufrio danos reales durante la filmacion
+    de este juego. Sin embargo, no podemos decir lo mismo del trauma psicologico
+    que sufrieron las pelotas de futbol.</size>\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 89b86bb0cc2ac964594367c5e4f15262, type: 2}
   m_sharedMaterial: {fileID: -7993009444404344736, guid: 89b86bb0cc2ac964594367c5e4f15262, type: 2}
@@ -4562,6 +4563,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 939757758}
   m_CullTransparentMesh: 1
+--- !u!114 &939757762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939757758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af5b3b1f22006b54eb8fa6102c963a2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CreditsController
+  scrollSpeed: 20
+  creditsPanel: {fileID: 939757759}
+  startPositionY: 1100
+  endPositionY: -1500
+  delayBeforeStart: 2
+  delayAfterEnd: 2
+  creditsText: {fileID: 939757760}
+  creditsContent: "<size=55>CREDITOS DE TRANSMISION</size>  <color=red>PROGRAMACION
+    Y CODIGO [Crisrez]</color>  Tiempo total de transmision: 90 segundos.  Bugs convertidos
+    en mecanicas:  Demasiados.  <color=green>ARTE 3D Y MODELADO [Lisandro A.]</color> 
+    Goles capturados en alta definicion:  %goles%.  Cachiporras modeladas con amor: 
+    1.  ARTE 2D Y TEXTURAS [Emma Pfann]  Disturbios y caos inmortalizados:  %quilombo%. 
+    Hinchas enfurecidos dibujados a mano:  Una multitud.  MUSICA Y EFECTOS DE SONIDO
+    [Fabricio]  Decibelios de gritos sintonizados:  Al maximo.  Banda sonora aprobada
+    por el sindicato de camarografos.     NOTICIA DE ULTIMA HORA:  \u201CFuertes
+    declaraciones: Varias pelotas del estadio denuncian crisis existencial y maltrato
+    laboral debido a las patadas de los jugadores. Ampliaremos en TODO PELOTA\u201D. 
+    <size=80>\xA1MUCHAS GRACIAS POR JUGAR!</size>          <size=20>Nota legal: Ningun
+    hincha, guardia de seguridad o dron sufrio danos reales durante la filmacion
+    de este juego. Sin embargo, no podemos decir lo mismo del trauma psicologico
+    que sufrieron las pelotas de futbol.</size> "
+  timer: 0
 --- !u!1 &975496198
 GameObject:
   m_ObjectHideFlags: 0
@@ -4843,6 +4878,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 371cec372c0c6634286150f765731ce6, type: 3}
       propertyPath: m_Name
       value: Estadio prototipo 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 371cec372c0c6634286150f765731ce6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6434,6 +6473,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1353598185}
   m_CullTransparentMesh: 1
+--- !u!1001 &1406867133
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f207ff2ce77bfd44e957e5806b0571a9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f207ff2ce77bfd44e957e5806b0571a9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f207ff2ce77bfd44e957e5806b0571a9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f207ff2ce77bfd44e957e5806b0571a9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f207ff2ce77bfd44e957e5806b0571a9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f207ff2ce77bfd44e957e5806b0571a9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f207ff2ce77bfd44e957e5806b0571a9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f207ff2ce77bfd44e957e5806b0571a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f207ff2ce77bfd44e957e5806b0571a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f207ff2ce77bfd44e957e5806b0571a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f207ff2ce77bfd44e957e5806b0571a9, type: 3}
+      propertyPath: m_Name
+      value: Estadio prototipo 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f207ff2ce77bfd44e957e5806b0571a9, type: 3}
 --- !u!4 &1409042377 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2166242859796069347, guid: 0b1492235bb739d498efc58dcb2d14f3, type: 3}
@@ -8007,7 +8103,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1655192328
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10522,3 +10618,4 @@ SceneRoots:
   - {fileID: 33875193}
   - {fileID: 1218355816}
   - {fileID: 6270518080127678905}
+  - {fileID: 1406867133}
