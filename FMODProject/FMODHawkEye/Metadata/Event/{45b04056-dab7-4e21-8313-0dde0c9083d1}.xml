@@ -73,7 +73,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{e17d0cdc-9211-479d-bbf9-488cc866f40b}">
 		<property name="volume">
-			<value>-11.5</value>
+			<value>-12</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{6b09de5f-880e-4e81-b1a2-c0b63e8dd47e}</destination>
@@ -132,6 +132,9 @@
 		<property name="filterTypeD">
 			<value>9</value>
 		</property>
+		<property name="filterTypeE">
+			<value>9</value>
+		</property>
 		<property name="frequencyA">
 			<value>168.983734</value>
 		</property>
@@ -139,10 +142,10 @@
 			<value>2073.13403</value>
 		</property>
 		<property name="frequencyD">
-			<value>1068.27954</value>
+			<value>1046.37341</value>
 		</property>
 		<property name="frequencyE">
-			<value>7336.98682</value>
+			<value>395.158386</value>
 		</property>
 		<property name="qualityA">
 			<value>0.730814755</value>
@@ -153,6 +156,9 @@
 		<property name="qualityD">
 			<value>1.25</value>
 		</property>
+		<property name="qualityE">
+			<value>1.30000007</value>
+		</property>
 		<property name="gainB">
 			<value>-8.5</value>
 		</property>
@@ -160,10 +166,10 @@
 			<value>-6.92307663</value>
 		</property>
 		<property name="gainD">
-			<value>-6.40303373</value>
+			<value>-11.603467</value>
 		</property>
 		<property name="gainE">
-			<value>2.95774698</value>
+			<value>-7</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{971f7e65-2e8e-4460-b0a4-db804e099fee}" />
@@ -207,7 +213,7 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>1.39999998</value>
+			<value>0.600000024</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{97ee7885-65fc-46f1-a02d-71d6c1eed1a3}">

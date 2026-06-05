@@ -78,7 +78,7 @@
 	</object>
 	<object class="GroupTrack" id="{14830503-8052-4786-b0d2-72293437b223}">
 		<relationship name="automationTracks">
-			<destination>{0942ea19-b6c3-45b9-b974-3fed51822089}</destination>
+			<destination>{da52b0d2-8561-40b4-b319-840acaaa7e7d}</destination>
 		</relationship>
 		<relationship name="modules">
 			<destination>{0963b384-3297-4057-bb45-436317ab3c99}</destination>
@@ -180,7 +180,7 @@
 			<destination>{abaf642b-9488-492d-9b3d-f9c2963a446e}</destination>
 		</relationship>
 	</object>
-	<object class="AutomationTrack" id="{0942ea19-b6c3-45b9-b974-3fed51822089}">
+	<object class="AutomationTrack" id="{da52b0d2-8561-40b4-b319-840acaaa7e7d}">
 		<relationship name="automator">
 			<destination>{90089737-befd-48c8-80a6-4dc09df464cb}</destination>
 		</relationship>
@@ -203,7 +203,7 @@
 			<value>19.199145833333333</value>
 		</property>
 		<property name="volume">
-			<value>-4</value>
+			<value>-12</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{0895b87d-85d1-4059-b014-3e352588d774}</destination>
@@ -217,7 +217,7 @@
 			<value>12.7861875</value>
 		</property>
 		<property name="volume">
-			<value>-4</value>
+			<value>-12</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{0895b87d-85d1-4059-b014-3e352588d774}</destination>
@@ -458,7 +458,7 @@
 			<value>4.545454545454545</value>
 		</property>
 		<property name="value">
-			<value>-19</value>
+			<value>-21</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{25aa8b6c-068a-4186-a15b-f5f64fdfe29c}">
@@ -466,7 +466,7 @@
 			<value>5.4545454545454541</value>
 		</property>
 		<property name="value">
-			<value>-10</value>
+			<value>-12</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{659b368a-5493-458e-a90d-29f52b24f9a3}">
@@ -474,7 +474,7 @@
 			<value>8.0370370370370363</value>
 		</property>
 		<property name="value">
-			<value>-1</value>
+			<value>-6</value>
 		</property>
 	</object>
 </objects>

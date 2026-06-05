@@ -123,5 +123,8 @@
 		<property name="soundSize">
 			<value>22</value>
 		</property>
+		<property name="minimumExtent">
+			<value>136</value>
+		</property>
 	</object>
 </objects>

@@ -73,7 +73,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{5fc9df16-63a1-4153-868f-11cf1be97a8b}">
 		<property name="volume">
-			<value>-12</value>
+			<value>-8</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{a4211091-35b2-48f3-bdcb-ec504191fff1}</destination>
@@ -117,11 +117,20 @@
 	</object>
 	<object class="MixerBusFader" id="{155ea94b-977b-4bb5-9cde-0f2c20f77361}" />
 	<object class="MultibandEqEffect" id="{1d54f541-904f-4fe0-be23-4f80003360dd}">
+		<property name="filterTypeB">
+			<value>9</value>
+		</property>
 		<property name="frequencyA">
 			<value>5158.79541</value>
 		</property>
+		<property name="frequencyB">
+			<value>308.171722</value>
+		</property>
 		<property name="qualityA">
 			<value>0.528780103</value>
+		</property>
+		<property name="gainB">
+			<value>-3.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{97e82b08-3842-4444-b08b-afc3e784c7cf}" />
@@ -142,7 +151,7 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>2.20000005</value>
+			<value>1</value>
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{cb8857ab-f6fe-47e8-b13c-3bfd63854da1}">

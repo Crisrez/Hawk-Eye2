@@ -81,7 +81,6 @@
 		<property name="length">
 			<value>4</value>
 		</property>
-		<property name="name" />
 		<property name="polyphony">
 			<value>6</value>
 		</property>
@@ -166,7 +165,7 @@
 			<value>131.785141</value>
 		</property>
 		<property name="frequencyC">
-			<value>677.211731</value>
+			<value>598.046936</value>
 		</property>
 		<property name="frequencyD">
 			<value>3073.21704</value>
@@ -178,7 +177,7 @@
 			<value>0.44460237</value>
 		</property>
 		<property name="qualityC">
-			<value>1.75</value>
+			<value>1.25</value>
 		</property>
 		<property name="qualityD">
 			<value>1.10000002</value>
@@ -187,7 +186,7 @@
 			<value>0.730814755</value>
 		</property>
 		<property name="gainC">
-			<value>-13.6836395</value>
+			<value>-14.2036839</value>
 		</property>
 		<property name="gainD">
 			<value>-7.96316385</value>

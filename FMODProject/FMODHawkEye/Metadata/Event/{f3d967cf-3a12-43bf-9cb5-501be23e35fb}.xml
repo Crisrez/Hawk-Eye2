@@ -104,6 +104,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{f49d0011-9d74-4046-a78b-195bb9d567bd}" />
 	<object class="MultiSound" id="{65a88317-8c99-409e-8ac3-5298c79633ef}">
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<property name="playlistMode">
 			<value>1</value>
 		</property>
@@ -122,13 +125,16 @@
 	<object class="MixerBusFader" id="{6ac7535a-0c9d-49aa-a605-3398d6c1e7df}" />
 	<object class="SpatialiserEffect" id="{0373c71f-d74f-4116-9f8c-e74e37c45da9}">
 		<property name="minimumDistance">
-			<value>7.20000029</value>
+			<value>20</value>
 		</property>
 		<property name="maximumDistance">
-			<value>75</value>
+			<value>750</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{51c7d049-30a8-4407-9f87-6461696550d2}">

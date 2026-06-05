@@ -103,7 +103,7 @@
 	<object class="MixerBusPanner" id="{f175655c-3c8c-4b5a-8413-9d923f51d6a1}" />
 	<object class="SingleSound" id="{2faab7fa-8667-4c5d-a237-b95727dbcba4}">
 		<property name="volume">
-			<value>3.5</value>
+			<value>8</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -127,7 +127,10 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>26</value>
+			<value>17.5</value>
+		</property>
+		<property name="minimumExtent">
+			<value>138</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{e35fab6d-f676-4597-a44f-0714b48f3dea}" />

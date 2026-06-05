@@ -718,6 +718,9 @@
 		<property name="soundSize">
 			<value>16</value>
 		</property>
+		<property name="minimumExtent">
+			<value>130</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{1ba7da87-1535-4c86-9d76-4a19dbfc3372}" />
 	<object class="SFXReverbEffect" id="{6a4b9ad0-c80a-4b0f-8f5d-ed74cc878a81}">

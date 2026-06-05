@@ -2624,58 +2624,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2166242859796069347, guid: 0b1492235bb739d498efc58dcb2d14f3, type: 3}
   m_PrefabInstance: {fileID: 175528149}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1517795928
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1517795930}
-  - component: {fileID: 1517795929}
-  m_Layer: 0
-  m_Name: MusicMenu
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1517795929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1517795928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a9ec25e9f6b742bd89e5d13fab3a838, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
-  menuMusicEvent:
-    Guid:
-      Data1: -1972881
-      Data2: 1175206599
-      Data3: -15198299
-      Data4: 461178373
-    Path: event:/Musica
-  fadeOutTime: 1.5
---- !u!4 &1517795930
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1517795928}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -62.90636, y: 0, z: 27.24669}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1555077864
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3863,6 +3811,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5119766381154230619}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1853892105746916684
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1551200782948329309, guid: d840f49ace1be4630b97136b9e165968, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -62.90636
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551200782948329309, guid: d840f49ace1be4630b97136b9e165968, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551200782948329309, guid: d840f49ace1be4630b97136b9e165968, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.24669
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551200782948329309, guid: d840f49ace1be4630b97136b9e165968, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551200782948329309, guid: d840f49ace1be4630b97136b9e165968, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551200782948329309, guid: d840f49ace1be4630b97136b9e165968, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551200782948329309, guid: d840f49ace1be4630b97136b9e165968, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551200782948329309, guid: d840f49ace1be4630b97136b9e165968, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551200782948329309, guid: d840f49ace1be4630b97136b9e165968, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551200782948329309, guid: d840f49ace1be4630b97136b9e165968, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385828874281269254, guid: d840f49ace1be4630b97136b9e165968, type: 3}
+      propertyPath: m_Name
+      value: MusicMenu
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d840f49ace1be4630b97136b9e165968, type: 3}
 --- !u!23 &2830582178816072188
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4468,4 +4473,4 @@ SceneRoots:
   - {fileID: 1412547547}
   - {fileID: 486470655}
   - {fileID: 1564577551}
-  - {fileID: 1517795930}
+  - {fileID: 1853892105746916684}
