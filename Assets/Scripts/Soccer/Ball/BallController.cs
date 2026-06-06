@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class BallController : MonoBehaviour
 {
@@ -26,4 +25,5 @@ public class BallController : MonoBehaviour
         //rb.angularVelocity = Vector3.zero;
         transform.position = new Vector3(0,100,0);
     }
+
 }

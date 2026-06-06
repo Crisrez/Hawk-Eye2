@@ -54,6 +54,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-6943649254004817018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MusicaDeLaBanda
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/MusicaDeLaBanda
+  Guid:
+    Data1: -1321994599
+    Data2: 1277735807
+    Data3: -2090948183
+    Data4: 792634640
+  Banks:
+  - {fileID: 8609172079785094771}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6310748825879522541}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 44739242
 --- !u!114 &-6358310297697260855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,10 +97,37 @@ MonoBehaviour:
   Path: FMODProject/FMODHawkEye/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639162007543886668
+  lastModified: 639162810407192709
   FileSizes:
   - Name: Desktop
-    Value: 1238
+    Value: 1510
+  Exists: 1
+--- !u!114 &-6310748825879522541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicaDeLaBanda/La_Banda_Loca
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: La_Banda_Loca
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 1
+  ID:
+    data1: 109368634
+    data2: 3646911365
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Silencio
+  - elMaestro
+  - Tutti
   Exists: 1
 --- !u!114 &-3011284966945783316
 MonoBehaviour:
@@ -124,7 +179,8 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: 2706594817072214596}
   MinDistance: 1
   MaxDistance: 20
   Length: 31985
@@ -182,13 +238,16 @@ MonoBehaviour:
   - {fileID: -8411168856826052872}
   - {fileID: 3501070745055614718}
   - {fileID: -319026471455476003}
+  - {fileID: 7558445942245836626}
+  - {fileID: 7594022273140255324}
+  - {fileID: -6943649254004817018}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3441196013687869723}
   StringsBanks:
   - {fileID: -6358310297697260855}
   cacheVersion: 131859
-  cacheTime: 639162007543886668
+  cacheTime: 639162810407192709
   SerializableEventsDict:
   - key: event:/Hinchas
     index: 0
@@ -210,6 +269,12 @@ MonoBehaviour:
     index: 8
   - key: event:/fanatic
     index: 9
+  - key: event:/ESM_MG3_fx_button_confirm_simple_menu_text_01
+    index: 10
+  - key: event:/Musica
+    index: 11
+  - key: event:/MusicaDeLaBanda
+    index: 12
 --- !u!114 &1931976541077411853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,6 +302,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4000
+--- !u!114 &2706594817072214596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/amb_StadiumCrowd01.wav_02/AngryCrowd
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: AngryCrowd
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 467330835
+    data2: 3343637306
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &2761407586015570882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,11 +395,65 @@ MonoBehaviour:
   - {fileID: 8609172079785094771}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &7558445942245836626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ESM_MG3_fx_button_confirm_simple_menu_text_01
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/ESM_MG3_fx_button_confirm_simple_menu_text_01
+  Guid:
+    Data1: -1216958908
+    Data2: 1220020424
+    Data3: -1727662412
+    Data4: -2146051296
+  Banks:
+  - {fileID: 8609172079785094771}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7594022273140255324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Musica
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Musica
+  Guid:
+    Data1: -1972881
+    Data2: 1175206599
+    Data3: -15198299
+    Data4: 461178373
+  Banks:
+  - {fileID: 8609172079785094771}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 69120
 --- !u!114 &8056534398454755379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -380,8 +523,8 @@ MonoBehaviour:
   Path: FMODProject/FMODHawkEye/Build/Desktop/Main.bank
   Name: Main
   StudioPath: bank:/Main
-  lastModified: 639162007543846576
+  lastModified: 639162810407182701
   FileSizes:
   - Name: Desktop
-    Value: 1942848
+    Value: 3697216
   Exists: 1

@@ -30,6 +30,7 @@ public class ProblemManager : MonoBehaviour
             if (Random.Range(0f, 100f) < probability)
             {
                 Debug.Log("A problem has occurred!");
+                GameData.IncrementCountProblem();
                 SpawnProblem();
             }
             else

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 public static class GameData
 {
+    private static int countProblem = 0;
+
     private static int scoreTeamRed = 0;
     private static int scoreTeamBlue = 0;
     private static int membersPerTeam;
@@ -142,16 +144,24 @@ public static class GameData
         posessionBall = team;
     }
 
-    
-
     public static Team? GetPosessionBall()
     {
         return posessionBall;
     }
 
+    public static int GetCountProblem()
+    {
+        return countProblem;
+    }
+
+    public static void IncrementCountProblem()
+    {
+        countProblem++;
+    }
 
     public static void ResetData()
     {
+        countProblem = 0;
         scoreTeamRed = 0;
         scoreTeamBlue = 0;
         membersPerTeam = 0;
