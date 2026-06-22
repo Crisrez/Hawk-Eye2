@@ -340,7 +340,6 @@ GameObject:
   m_Component:
   - component: {fileID: 146538991407133810}
   - component: {fileID: 666496210569290714}
-  - component: {fileID: 8434532046294557570}
   - component: {fileID: 3834556628850020159}
   - component: {fileID: 1980318775175914673}
   m_Layer: 5
@@ -377,22 +376,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3135159068397408545}
   m_CullTransparentMesh: 1
---- !u!114 &8434532046294557570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3135159068397408545}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62ed1351d71e03740be0236270cb73d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AnimationTextTutorial
-  duration: 1
-  fontSizeMin: 50
-  fontSizeMax: 60
-  textMeshPro: {fileID: 0}
 --- !u!114 &3834556628850020159
 MonoBehaviour:
   m_ObjectHideFlags: 0

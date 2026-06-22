@@ -2683,7 +2683,7 @@ MonoBehaviour:
   timer: 0
   interval: 5
   probability: 0
-  minProbability: 25
+  minProbability: 50
   maxProbability: 100
 --- !u!114 &548959769
 MonoBehaviour:

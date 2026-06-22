@@ -3,8 +3,8 @@ using UnityEngine.InputSystem;
 
 public class OffsideBall : MonoBehaviour
 {
-    [SerializeField] private float timer, timeToOffside = 5f;
-    [SerializeField] private bool isOffside = false;
+    //[SerializeField] private float timer, timeToOffside = 5f;
+    //[SerializeField] private bool isOffside = false;
     [SerializeField] private float xMas, xMenos, zMas, zMenos;
     [SerializeField] private BallController ballController;
 
